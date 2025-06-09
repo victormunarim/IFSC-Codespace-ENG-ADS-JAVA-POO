@@ -4,10 +4,12 @@ public class HelloWorld {
     public static void main(String[] args) {
         Scanner linhaDigitada = new Scanner(System.in);
 
-        System.out.print("digite: ");
-        String entrada = linhaDigitada.nextLine();
+        System.out.print("digite a hora: ");
+        double horas = linhaDigitada.nextDouble();
 
-        System.out.println("voce digitou: " + entrada);
+        double minutos = horas * 60;
+
+        System.out.println("minutos: " + minutos);
 
         linhaDigitada.close();
     }
