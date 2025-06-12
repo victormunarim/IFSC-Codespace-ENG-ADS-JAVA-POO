@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class Area {
     public static void main(String[] args) {
         Scanner linhaDigitada = new Scanner(System.in);
 

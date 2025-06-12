@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class HorasParaMinutos {
     public static void main(String[] args) {
         Scanner linhaDigitada = new Scanner(System.in);
 

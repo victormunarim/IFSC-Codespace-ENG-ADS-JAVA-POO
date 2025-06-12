@@ -8,7 +8,6 @@ public class HelloWorld {
         String entrada = linhaDigitada.nextLine();
 
         System.out.println("voce digitou: " + entrada);
-
         linhaDigitada.close();
     }
 }
